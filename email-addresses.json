@@ -1,0 +1,39 @@
+{
+  "Valid Email Addresses": {
+    "Simple Email": "quidco@gmail.com",
+    "Dot in Address": "quidco.tester@gmail.com",
+    "Email with Subdomain": "email@subdomain.domain.com",
+    "Plus in Address": "test+user@gmail.com",
+    "Numbers in Domain": "email@127.0.0.1",
+    "Square Bracket in Domain": "email@[127.0.0.1]",
+    "Unnecessary Quotes in Address": "\"email\"@domain.com",
+    "Necessary Quotes in Address": "\"email..email\"@domain.com",
+    "Numbers in Address": "123456789@domain.com",
+    "Dash in Domain": "email@domain-one.com",
+    "Underscore in Address": "test_user@domain.com",
+    "More than 3 characters in Top Level Domain": "email@domain.name",
+    "Two character Top Level Domain": "email@domain.co.uk",
+    "Dash in Address": "firstname-lastname@domain.com",
+    "Intranet Email": "name@localhost",
+    "Non-ASCII characters": "nathan@学生优惠.com",
+    "Balance Email": "betauser6963022@quidco.com"
+  },
+  "Invalid Email Addresses" : {
+    "No @ Symbol or Domain": "plainaddress",
+    "No @ Symbol": "email.domain.com",
+    "Missing Address": "@domain.com",
+    "Garbage": "#@%^%#$@#$@#.com",
+    "Pasted Address from Address Book": "Joe Smith <email@domain.com>",
+    "Superfluous Text": "email@domain.com (Joe Smith)",
+    "Multiple @ Symbols": "email@domain@domain.com",
+    "Leading dot in Address": ".email@domain.com",
+    "Trailing dot in Address": "email.@domainl.com",
+    "Multiple dots in Address": "email..email@domain.com",
+    "Unicode characters in Address": "あいうえお@domain.com",
+    "Leading dash in Domain": "email@-domain.com",
+    "Leading dot in Domain": "email@.domain.com",
+    "Invalid IP Address": "email@111.222.333.44444",
+    "Multiple dots in Domain": "email@domain..com",
+    "No Top Level Domain": "email@domain"
+  }
+}
